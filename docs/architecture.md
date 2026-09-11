@@ -2,16 +2,16 @@
 
 ## Boundary
 
-Kernl sits between an application and one or more agent runtimes.
+LoopPlane sits between an application and one or more agent runtimes.
 
 ```text
-Application -> Kernl control plane -> runtime adapter -> agent runtime
+Application -> LoopPlane control plane -> runtime adapter -> agent runtime
                     |                    |
                     v                    v
              evidence ledger       execution environment
 ```
 
-The application owns business rules and integration handlers. The runtime owns its agent loop. Kernl owns the resolved execution contract and its audit trail.
+The application owns business rules and integration handlers. The runtime owns its agent loop. LoopPlane owns the resolved execution contract and its audit trail.
 
 ## Resolved run spec
 

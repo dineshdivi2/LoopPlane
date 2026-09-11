@@ -1,6 +1,6 @@
-# Kernl Harness Service
+# LoopPlane
 
-An API-first control plane for running versioned agent harnesses. Kernl is not a replacement for a managed agent runtime: it records and enforces the application-specific boundaries around a runtime—capabilities, environment, sessions, evidence, and promotion policy.
+An API-first control plane for deploying versioned, custom agent harnesses. LoopPlane records and enforces the application-specific boundaries around a runtime—capabilities, environment, sessions, evidence, and promotion policy.
 
 ## Why this exists
 
@@ -8,7 +8,7 @@ Managed agent platforms make durable agent execution much easier. Production cor
 
 > What could this runtime do at the moment it took this action?
 
-Kernl treats that answer as a versioned capability profile, recorded with each run.
+LoopPlane treats that answer as a versioned capability profile, recorded with each run.
 
 ## Execution model
 
